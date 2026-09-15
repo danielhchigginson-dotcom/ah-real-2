@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "kelps_ah",
+  "version": "5.3.1-persistent-cancel",
+  "name": "Kelps Auction House + Shop",
+  "description": "Persistent balances for EVERY player (online+offline), AH listings survive restarts, click own item to cancel, /pay command. GUIs same.",
+  "authors": [
+    "Orca / modified"
+  ],
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.orcaengine.kelps_ah.KelpsAhMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
